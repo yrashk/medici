@@ -71,8 +71,7 @@ init([]) ->
     end,
     process_flag(trap_exit, true),
     start_server(ServerOpts, #state{log_match=LogMatch,
-				    pid_match=PidMatch})
-    end.
+				    pid_match=PidMatch}).
 
 %%--------------------------------------------------------------------
 %% Function: %% handle_call(Request, From, State) -> {reply, Reply, State} |
